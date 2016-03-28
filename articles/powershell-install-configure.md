@@ -21,7 +21,7 @@
 <div class="dev-center-tutorial-selector sublanding"><a href="/manage/install-and-configure-windows-powershell/" title="PowerShell" class="current">PowerShell</a><a href="/manage/install-and-configure-cli/" title="Azure CLI">Azure  CLI</a></div>
 
 ##What is Azure PowerShell?#
-Azure PowerShell is a module that provides cmdlets to manage Azure with Windows PowerShell. You can use the cmdlets to create, test, deploy, and manage solutions and services delivered through the Azure platform. In most cases, the cmdlets can be used for the same tasks as the Azure Management Portal, such as creating and configuring cloud services, virtual machines, virtual networks, and web apps.
+Azure PowerShell is a set of modules that provide cmdlets to manage Azure with Windows PowerShell. You can use the cmdlets to create, test, deploy, and manage solutions and services delivered through the Azure platform. In most cases, the cmdlets can be used for the same tasks as the Azure Management Portal, such as creating and configuring cloud services, virtual machines, virtual networks, and web apps.
 
 <a id="Install"></a>
 ## Step 1: Install
@@ -60,7 +60,7 @@ Install Azure PowerShell 1.0 or greater from the PowerShell Gallery using the fo
 
 ####More about these commands
 
-- **Install-Module AzureRM** installs a rollup module for the Azure Resource Manager modules. This module depends on a particular version range for each Azure Resource Manager module. The included version range assures that no breaking module changes can be included when installing AzureRM. When you install the  modules, any Azure Resource Manager module that has not previously been installed will be downloaded and installed from the PowerShell Gallery. For more information on semantic versioning, see [semver.org](http://semver.org). 
+- **Install-Module AzureRM** installs a rollup module for the Azure Resource Manager modules. This module depends on a particular version range for each Azure Resource Manager module. The included version range assures that no breaking module changes can be included when installing AzureRM modules with the same major version. When you install the  modules, any Azure Resource Manager module that has not previously been installed will be downloaded and installed from the PowerShell Gallery. For more information on the semantic versioning used by Azure PowerShell modules, see [semver.org](http://semver.org). 
 - **Install-Module Azure** installs the Azure module. This module is the Service Management module from Azure PowerShell 0.9.x. This should have no major changes and be interchangeable for the previous version of the Azure module.
 
 ## Step 2: Start
